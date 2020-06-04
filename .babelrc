@@ -1,0 +1,25 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./app/components",
+          "hooks": "./app/hooks",
+          "libs": "./app/libs",
+          "pages": "./app/pages",
+          "styles": "./app/styles",
+          "utils": "./app/utils",
+          "flux": "./app/flux",
+          "reducers": "./app/flux/reducers",
+          "actions": "./app/flux/actions",
+          "types": "./app/flux/types"
+        }
+      }
+    ]
+  ]
+}

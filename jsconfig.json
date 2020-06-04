@@ -1,0 +1,19 @@
+// sirve para que el vscode reconozca los paths del module-resolver
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "components/*": ["./app/components/*"],
+      "hooks/*": ["./app/hooks/*"],
+      "libs/*": ["./app/libs/*"],
+      "pages/*": ["./app/pages/*"],
+      "flux/*": ["./app/flux/*"],
+      "styles/*": ["./app/styles/*"],
+      "utils/*": ["./app/utils/*"],
+      "reducers/*": ["app/flux/reducers/*"],
+      "actions/*": ["app/flux/actions/*"],
+      "types/*": ["app/flux/types/*"]
+    }
+  }
+}
