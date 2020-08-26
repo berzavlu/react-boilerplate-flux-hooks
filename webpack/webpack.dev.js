@@ -7,7 +7,7 @@ module.exports = merge(common, {
     host: 'localhost',
     open: true,
     hot: true,
-    port: 3000,
+    port: 4000,
     historyApiFallback: true,
     stats: 'errors-only',
     noInfo: true,

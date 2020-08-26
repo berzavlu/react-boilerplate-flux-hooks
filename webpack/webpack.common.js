@@ -119,8 +119,8 @@ module.exports = {
     }),
     new BrowserSyncPlugin({
       host: 'localhost',
-      port: 3000,
-      proxy: 'http://localhost:8080/',
+      port: 4000,
+      proxy: 'http://localhost:4000/',
       open: false,
     }),
   ],
